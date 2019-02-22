@@ -688,6 +688,13 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@polymer/polymer@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.1.0.tgz#3e1b7447a1e350fd654e1823def655d0f0828a70"
+  integrity sha512-hwN8IMERsFATz/9dSMxYHL+84J9uBkPuuarxJWlTsppZ4CAYTZKnepBfNrKoyNsafBmA3yXBiiKPPf+fJtza7A==
+  dependencies:
+    "@webcomponents/shadycss" "^1.5.2"
+
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@soda/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-1.7.1.tgz#706f64bcb4a8b9642b48ae3ace444c70334d615d"
@@ -706,6 +713,28 @@
   version "1.13.7"
   resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.13.7.tgz#137a4e57aa31ab57b1baf66f5dc3b6bf085e9944"
   integrity sha512-rzi6fw7hhxPcCoNVsgysHFlKnhYYvVj7AJwdAO0HQNP5vg9sY0DoRRC1pfuCQm94cOa1sab82HGUtdFlWHIhBg==
+
+"@ui5/webcomponents-base@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-base/-/webcomponents-base-0.7.0.tgz#b9fa4ab1a745f257aa92d2a395be537294a2a8be"
+  integrity sha512-lpW0OFhbOdspxm3pBK+BxsVs0ylZFBiNNuTvD0khq6HH/IiIKwPj2qbffCpU1AMxmPjBC0I+0MqqmtYOMBRz3Q==
+  dependencies:
+    "@polymer/polymer" "^3.1.0"
+    "@ui5/webcomponents-core" "0.7.0"
+
+"@ui5/webcomponents-core@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-core/-/webcomponents-core-0.7.0.tgz#f5aaf4403d9ed5933180cd517c78875cc6087707"
+  integrity sha512-Cf6YbcQN3NEGuWG/5YA75DJ0jlI0y1u9TO6I1U1nsbJoFnApOrR/5RihgqyOAVcX/IreTnBI8KXJYa4fkU6BSw==
+
+"@ui5/webcomponents@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents/-/webcomponents-0.7.0.tgz#b297f7b44ffffc129064618b063d4e06f9ad51e5"
+  integrity sha512-Mx7mvJiYMVODFe9wc6fO5hSa4QIR3XK639+ei8b0Hibr4HS0dL8SmUuYoxhx1oGVnKWspBXCxIN/3Bh8SLCr2A==
+  dependencies:
+    "@ui5/webcomponents-base" "0.7.0"
+    "@ui5/webcomponents-core" "0.7.0"
+    lit-html "^0.14.0"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0-beta.2":
   version "1.0.0-beta.2"
@@ -1060,6 +1089,11 @@
     "@webassemblyjs/ast" "1.7.11"
     "@webassemblyjs/wast-parser" "1.7.11"
     "@xtuc/long" "4.2.1"
+
+"@webcomponents/shadycss@^1.5.2":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.9.0.tgz#8450465037370d4f5c32e801bb2554a7cf2f5037"
+  integrity sha512-g8Xa+6RSEME4g/wLJW4YII0eq15rvXp76RxPAuv7hx+Bdoi7GzZJ/EoZOUfyIbqAsQbII1TcWD4/+Xhs5NcM1w==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -4166,6 +4200,11 @@ lcid@^2.0.0:
   integrity sha512-avPEb8P8EGnwXKClwsNUgryVjllcRqtMYa49NTsbQagYuT1DcXnl1915oxWjoyGrXR6zH/Y0Zc96xWsPcoDKeA==
   dependencies:
     invert-kv "^2.0.0"
+
+lit-html@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-0.14.0.tgz#d6830e8f55fb923b0f5824decf7da082a1d22997"
+  integrity sha512-+xqUPzzJGEDqb0F5DOnMXvL0jxpkKebAMlXycKZxFtzlmD+qePEmYrEUPF9XVXcc5eYBzYXTCOUcjSCod4YvgQ==
 
 loader-runner@^2.3.0, loader-runner@^2.3.1:
   version "2.4.0"
