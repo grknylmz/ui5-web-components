@@ -53,7 +53,7 @@ interface IDialog {
 @Component
 export default class Dialog extends Vue {
   onClickOpen() {
-    let dialog = this.$refs.dialog;
+    let dialog: any = this.$refs.dialog;
     dialog.open();
   }
 }
