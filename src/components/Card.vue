@@ -29,28 +29,28 @@
           </div>
         </ui5-table-column>
 
-        <ui5-table-row data-ui5-slot="rows" slot="rows-1">
-          <ui5-table-cell slot="cells-1">
-            <div class="double-line-content" slot="content-1">
+        <ui5-table-row data-ui5-slot="rows">
+          <ui5-table-cell data-ui5-slot="cells">
+            <div class="double-line-content">
               <span>
                 <b>Notebook Basic 15</b>
               </span>
               <span style="margin-top: 0.5rem">HT-1000</span>
             </div>
           </ui5-table-cell>
-          <ui5-table-cell slot="cells-2">
-            <span class="middle" slot="content-1">Very Best Screens</span>
+          <ui5-table-cell data-ui5-slot="cells">
+            <span class="middle">Very Best Screens</span>
           </ui5-table-cell>
-          <ui5-table-cell slot="cells-3">
-            <span class="middle" slot="content-1">30 x 18 x 3cm</span>
+          <ui5-table-cell data-ui5-slot="cells">
+            <span class="middle">30 x 18 x 3cm</span>
           </ui5-table-cell>
-          <ui5-table-cell slot="cells-4">
-            <span style="color: #2b7c2b" class="middle" slot="content-1">
+          <ui5-table-cell data-ui5-slot="cells">
+            <span style="color: #2b7c2b" class="middle">
               <b>4.2</b>KG
             </span>
           </ui5-table-cell>
-          <ui5-table-cell slot="cells-5">
-            <span class="middle" slot="content-1">
+          <ui5-table-cell data-ui5-slot="cells">
+            <span class="middle">
               <b>956</b>EUR
             </span>
           </ui5-table-cell>
